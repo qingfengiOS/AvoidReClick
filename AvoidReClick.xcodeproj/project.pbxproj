@@ -15,7 +15,12 @@
 		FD2BA8B72101B9AD000D0F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2BA8B62101B9AD000D0F77 /* main.m */; };
 		FD2BA8C12101B9AD000D0F77 /* AvoidReClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2BA8C02101B9AD000D0F77 /* AvoidReClickTests.m */; };
 		FD2BA8CC2101B9AD000D0F77 /* AvoidReClickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2BA8CB2101B9AD000D0F77 /* AvoidReClickUITests.m */; };
-		FD2BA8DE2101BA00000D0F77 /* UIButton+AvoidReClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2BA8DD2101BA00000D0F77 /* UIButton+AvoidReClick.m */; };
+		FDA3750A211818D300DAB931 /* NSObject+AvoidReClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37508211818D300DAB931 /* NSObject+AvoidReClick.m */; };
+		FDA375252118234D00DAB931 /* UIButton+AvoidReClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3751B2118234C00DAB931 /* UIButton+AvoidReClick.m */; };
+		FDA375262118234D00DAB931 /* UITableView+AvoidReClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3751E2118234C00DAB931 /* UITableView+AvoidReClick.m */; };
+		FDA375272118234D00DAB931 /* UICollectionView+AvoidReClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA375202118234D00DAB931 /* UICollectionView+AvoidReClick.m */; };
+		FDA375282118234D00DAB931 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA375232118234D00DAB931 /* CollectionViewCell.m */; };
+		FDA375292118234D00DAB931 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA375242118234D00DAB931 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +57,17 @@
 		FD2BA8C72101B9AD000D0F77 /* AvoidReClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvoidReClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2BA8CB2101B9AD000D0F77 /* AvoidReClickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvoidReClickUITests.m; sourceTree = "<group>"; };
 		FD2BA8CD2101B9AD000D0F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2BA8DC2101BA00000D0F77 /* UIButton+AvoidReClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+AvoidReClick.h"; sourceTree = "<group>"; };
-		FD2BA8DD2101BA00000D0F77 /* UIButton+AvoidReClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AvoidReClick.m"; sourceTree = "<group>"; };
+		FDA37505211818D200DAB931 /* NSObject+AvoidReClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidReClick.h"; sourceTree = "<group>"; };
+		FDA37508211818D300DAB931 /* NSObject+AvoidReClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidReClick.m"; sourceTree = "<group>"; };
+		FDA3751A2118234C00DAB931 /* UIButton+AvoidReClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AvoidReClick.h"; sourceTree = "<group>"; };
+		FDA3751B2118234C00DAB931 /* UIButton+AvoidReClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AvoidReClick.m"; sourceTree = "<group>"; };
+		FDA3751D2118234C00DAB931 /* UITableView+AvoidReClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+AvoidReClick.h"; sourceTree = "<group>"; };
+		FDA3751E2118234C00DAB931 /* UITableView+AvoidReClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AvoidReClick.m"; sourceTree = "<group>"; };
+		FDA375202118234D00DAB931 /* UICollectionView+AvoidReClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+AvoidReClick.m"; sourceTree = "<group>"; };
+		FDA375212118234D00DAB931 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		FDA375222118234D00DAB931 /* UICollectionView+AvoidReClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+AvoidReClick.h"; sourceTree = "<group>"; };
+		FDA375232118234D00DAB931 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		FDA375242118234D00DAB931 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		FDD152A62106B93300DBEC61 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -106,12 +120,15 @@
 		FD2BA8A62101B9AB000D0F77 /* AvoidReClick */ = {
 			isa = PBXGroup;
 			children = (
+				FDA375192118234C00DAB931 /* UIbutton */,
+				FDA3751F2118234D00DAB931 /* UICollectionVIew */,
+				FDA3751C2118234C00DAB931 /* UITableView */,
+				FDA37505211818D200DAB931 /* NSObject+AvoidReClick.h */,
+				FDA37508211818D300DAB931 /* NSObject+AvoidReClick.m */,
 				FD2BA8A72101B9AB000D0F77 /* AppDelegate.h */,
 				FD2BA8A82101B9AB000D0F77 /* AppDelegate.m */,
 				FD2BA8AA2101B9AB000D0F77 /* ViewController.h */,
 				FD2BA8AB2101B9AC000D0F77 /* ViewController.m */,
-				FD2BA8DC2101BA00000D0F77 /* UIButton+AvoidReClick.h */,
-				FD2BA8DD2101BA00000D0F77 /* UIButton+AvoidReClick.m */,
 				FD2BA8AD2101B9AC000D0F77 /* Main.storyboard */,
 				FD2BA8B02101B9AD000D0F77 /* Assets.xcassets */,
 				FD2BA8B22101B9AD000D0F77 /* LaunchScreen.storyboard */,
@@ -137,6 +154,36 @@
 				FD2BA8CD2101B9AD000D0F77 /* Info.plist */,
 			);
 			path = AvoidReClickUITests;
+			sourceTree = "<group>";
+		};
+		FDA375192118234C00DAB931 /* UIbutton */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3751A2118234C00DAB931 /* UIButton+AvoidReClick.h */,
+				FDA3751B2118234C00DAB931 /* UIButton+AvoidReClick.m */,
+			);
+			path = UIbutton;
+			sourceTree = "<group>";
+		};
+		FDA3751C2118234C00DAB931 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3751D2118234C00DAB931 /* UITableView+AvoidReClick.h */,
+				FDA3751E2118234C00DAB931 /* UITableView+AvoidReClick.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		FDA3751F2118234D00DAB931 /* UICollectionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				FDA375222118234D00DAB931 /* UICollectionView+AvoidReClick.h */,
+				FDA375202118234D00DAB931 /* UICollectionView+AvoidReClick.m */,
+				FDA375212118234D00DAB931 /* CollectionViewCell.h */,
+				FDA375232118234D00DAB931 /* CollectionViewCell.m */,
+				FDA375242118234D00DAB931 /* CollectionViewCell.xib */,
+			);
+			path = UICollectionVIew;
 			sourceTree = "<group>";
 		};
 		FDD152A52106B93200DBEC61 /* Frameworks */ = {
@@ -252,6 +299,7 @@
 			files = (
 				FD2BA8B42101B9AD000D0F77 /* LaunchScreen.storyboard in Resources */,
 				FD2BA8B12101B9AD000D0F77 /* Assets.xcassets in Resources */,
+				FDA375292118234D00DAB931 /* CollectionViewCell.xib in Resources */,
 				FD2BA8AF2101B9AC000D0F77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2BA8AC2101B9AC000D0F77 /* ViewController.m in Sources */,
+				FDA375262118234D00DAB931 /* UITableView+AvoidReClick.m in Sources */,
 				FD2BA8B72101B9AD000D0F77 /* main.m in Sources */,
+				FDA375252118234D00DAB931 /* UIButton+AvoidReClick.m in Sources */,
 				FD2BA8A92101B9AB000D0F77 /* AppDelegate.m in Sources */,
-				FD2BA8DE2101BA00000D0F77 /* UIButton+AvoidReClick.m in Sources */,
+				FDA3750A211818D300DAB931 /* NSObject+AvoidReClick.m in Sources */,
+				FDA375282118234D00DAB931 /* CollectionViewCell.m in Sources */,
+				FDA375272118234D00DAB931 /* UICollectionView+AvoidReClick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

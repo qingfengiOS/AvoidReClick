@@ -11,7 +11,7 @@
 
 static const char *kTimeInterval = "timeInterval";
 static const char *kIsIgnoreEvent = "isIgnoreEvent";
-static const NSTimeInterval defaultValue = 0.5;
+static const NSTimeInterval defaultValue = 1;
 
 @implementation UIButton (AvoidReClick)
 
